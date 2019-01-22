@@ -1,0 +1,218 @@
+
+body{
+	background-color: #EEE;
+}
+
+.header{
+	background: orange;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+
+.headerx{
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 5px;
+	left: 20px;
+}
+
+#img_logo{
+	height: 100%;
+	width: 100%;
+}
+
+.headery{
+	background: blue;
+	right: 50px;
+	position: fixed;
+	width: 1200px;
+	height: 100%;
+}
+
+.header1{  
+	position:fixed;
+	width:100%;
+	height:5px;
+	top:0;
+	left:0;
+	color:white;
+	font-family:verdana;
+}
+   
+#searcharea{
+	top:12px;
+	left:700px;
+	height:40px;
+}
+
+#searchbox{
+	top:0px;
+	width:500px;
+	height:20px;
+	background:white;
+	padding :5px;
+	outline:none;
+	border-radius:10px/10px;
+	background-position:445px;
+	background-repeat:no-repeat;
+}
+
+#srchBoxButt{
+	background:blue;
+}
+
+#profilearea1{
+	top:20px;
+	left:130px;
+	height:20px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+.headery a{
+	color:white;
+	text-decoration:none;
+}
+
+#profilearea3{
+	top:20px;
+	left:198px;
+	height:30px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+#profilearea4{
+	top:20px;
+	left:212px;
+	height:20px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+#findf{
+	top:20px;
+	left:280px;
+	height:30px;
+}
+
+#message{
+	top:20px;
+	left:310px;
+	height:30px;
+}
+#notification{
+	top:20px;
+	left:340px;
+	height:30px;
+}
+
+#profilearea2{
+	top:10px;
+	left:360px;
+	height:30px;
+	font-size:30px;
+	font-family:verdana;
+}
+
+#setting{
+	top:20px;
+	height:30px;
+	left:375px
+}
+#logout{
+	top:20px;
+	height:30px;
+	left:400px
+}
+
+.container{
+	background: #EEE;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	left: 0px;
+}
+
+.container_left{
+	background: white;
+	left: 150px; 
+	position: fixed;
+	width: 300px;
+	height: 720px;
+	margin:0px 1px 10px 0px;
+}
+.chatbox_head{
+    background:#e74c3c;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+	text-align: center;    
+}
+.chatbox_body{
+    overflow:auto;
+    width: 250px;
+    height: 700px;
+}
+.chatbox_body a{
+    margin-left:15px;
+    padding:5px;
+    
+}
+.chatbox_body a::before{
+    content:'';
+    width:10px;
+    height:10px;
+    position:fixed;
+    background:green;
+    margin-left:-12px;
+    margin-top:5px;
+    border-radius:5px;
+}
+
+#container_right{
+	width:930px;
+	right: 150px;
+	position: fixed;
+    height:500px;
+    background:white;
+	margin: 5px 0px 10px 1px;
+	overflow:auto;
+}
+
+.footer{
+	width:930px;
+	right: 150px;
+	bottom: 0px;
+	position: fixed;
+    height:200px;
+    background:white;
+	margin: 0px 0px 5px 1px;
+	overflow:auto;
+}
+
+.butt{
+	width:100%;
+	height: 150px;
+}
+
+.txt{
+	width:100%;
+	height: 350px;
+	position: fixed;
+}
+
+#send{
+	background: blue;
+	right:220px;
+	bottom:10px;
+	height:35px;
+	width: 80px;
+	position: fixed;
+}
+

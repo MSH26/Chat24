@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat24H</title>
+		<link rel="stylesheet" type="text/css" href="failure_style.css" />
+		<script type="text/javascript" src="login.js"></script>
+	</head>
+	
+	<body>
+		<div class="header">
+			
+			<div class="header_img">
+				<img id="img_logo" src="System_icon_picture\H20H.png" />
+			</div>
+			
+		</div>
+		
+		<div class="bodyxx" >
+			<div class="bodyxy">
+				<a>Login failed!! Wrong email or password</a><br/>
+				<form action="checkloginfo.php" method="post" >
+					<a>Email:</a> <input placeholder="Email" type="text" name="lg_email" id="log_email" /><br/>
+					<a>password:</a> <input placeholder="Password" type="password" name="lg_password" id="log_password" /><br/>
+					<input type="button" id="lgin_btn" name="login_btn" onclick="submit_form(this)" value="Login" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

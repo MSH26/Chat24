@@ -1,0 +1,427 @@
+
+body{
+	background-color: #EEE;
+}
+
+.header{
+	background: orange;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+
+.headerx{
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 5px;
+	left: 20px;
+}
+
+#img_logo{
+	height: 100%;
+	width: 100%;
+}
+
+.headery{
+	background: blue;
+	right: 50px;
+	position: fixed;
+	width: 1200px;
+	height: 100%;
+}
+
+.header1{  
+	position:fixed;
+	width:100%;
+	height:5px;
+	top:0;
+	left:0;
+	color:white;
+	font-family:verdana;
+}
+   
+#searcharea{
+	top:12px;
+	left:700px;
+	height:40px;
+}
+
+#searchbox{
+	top:0px;
+	width:500px;
+	height:20px;
+	background:white;
+	padding :5px;
+	outline:none;
+	border-radius:10px/10px;
+	background-position:445px;
+	background-repeat:no-repeat;
+}
+
+#srchBoxButt{
+	background:blue;
+}
+
+#profilearea1{
+	top:20px;
+	left:130px;
+	height:20px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+.headery a{
+	color:white;
+	text-decoration:none;
+}
+
+#profilearea3{
+	top:20px;
+	left:198px;
+	height:30px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+#profilearea4{
+	top:20px;
+	left:212px;
+	height:20px;
+	font-size:20px;
+	font-family:verdana;
+}
+
+#findf{
+	top:20px;
+	left:280px;
+	height:30px;
+}
+
+#message{
+	top:20px;
+	left:310px;
+	height:30px;
+}
+
+#notification{
+	top:20px;
+	left:340px;
+	height:30px;
+}
+
+#profilearea2{
+	top:10px;
+	left:360px;
+	height:30px;
+	font-size:30px;
+	font-family:verdana;
+}
+
+#setting{
+	top:20px;
+	height:30px;
+	left:375px
+}
+
+#logout{
+	top:20px;
+	height:30px;
+	left:400px
+}
+
+.container{
+	background: #EEE;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	left: 0px;
+}
+
+.container_left{
+	background: #EEE;
+	float: left; 
+	//position: fixed;
+	margin: 0px 100px 0px 100px;
+	width: 900px;
+	height: 100%;
+}
+
+.container_left_control{
+	background: #EEE;
+	width: 900px;
+	height: 200px;
+}
+
+.container_left_control_profile{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.container_left_control_profile_pic{
+	width: 100%;
+	height: 85%;
+}
+
+#profile_picture{
+	width: 100%;
+	height: 100%;
+}
+
+.container_left_control_profile_name{
+	background: yellow;
+	top: 85%;
+	width: 100%;
+	height: 19%;
+}
+
+.container_left_control_cover{
+	float:right;
+	width: 80%;
+	height: 100%;
+}
+
+.container_left_control_cover_pic{
+	width: 100%;
+	height: 90%;
+}
+
+#cover_picture{
+	width: 100%;
+	height: 100%;
+}
+
+.container_left_control_cover_controlers{
+	background: pink;
+	top: 90%;
+	width: 100%;
+	height: 10%;
+}
+
+.container_left_control_cover_controlers ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.container_left_control_cover_controlers ul li {
+    float: left;
+}
+
+.container_left_control_cover_controlers ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.container_contents{
+	width: 900px;
+	height: 65%; /* shoud be deleted!!*/
+	top: 200px;
+	margin-top: 15px;
+}
+
+.container_contents_left{
+	float: left;
+	width: 350px;
+	height: 100%;
+	margin: 5px 5px 5px 0px;
+}
+
+.container_contents_left_intro{
+	background: white;
+	width: 350px;
+	height: 200px;
+	margin: 0px 0px 5px 0px;
+}
+
+.container_contents_right{
+	background: #EEE;
+	float: right;
+	width: 540px;
+	height: 100%;
+	margin: 5px 0px 5px 5px;
+}
+
+.container_contents_right_createpost{
+	background: white;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 140px;
+	margin: 0px 0px 5px 0px;
+}
+
+.container_contents_right_createpost_UP{
+	top: 0%;
+	width: 100%;
+	height: 20%;
+}
+
+.container_contents_right_createpost_middle{
+	background: white;
+	top: 20%;
+	width: 100%;
+	height: 60%;
+}
+
+#container_contents_right_createpost_middle_textarea{
+	width: 99%;
+	height: 95%;
+}
+
+.container_contents_right_createpost_DOWN{
+	background: #333;
+	top: 80%;
+	width: 100%;
+	height: 20%;
+}
+
+#container_contents_right_createpost_DOWN_tag ul {
+    list-style-type: none;
+	float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#container_contents_right_createpost_DOWN_tag ul li {
+    float: left;
+}
+
+#container_contents_right_createpost_DOWN_tag ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+#container_contents_right_createpost_DOWN_buttonpost{
+	background:#142170;
+	float: right;
+	width: 100px;
+	height: 100%;
+	padding: 3px 0px 3px 0px;
+	border-radius:4px/4px;
+	font-size:15px;
+	text-align: center;
+	outline:none;
+	color:white;
+}
+
+.container_contents_right_createdpost{
+	background: #EEE;
+	left: 0px;
+	top: 300px;
+	width: 100%;
+	margin: 5px 0px 0px 0px;
+}
+
+.createdpost_post{
+	background: white;
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.createdpost_post_UP{
+	background: orange;
+	width: 100%;
+	height: 40px;
+}
+
+.createdpost_post_BODY{
+	width: 100%;
+}
+.statText{
+	overflow: auto;
+}
+
+.createdpost_post_MIDDLE{
+	background: orange;
+	width: 100%;
+	height: 20px;
+}
+
+.createdpost_post_DOWN{
+	background: white;
+	width: 100%;
+}
+
+.createdpost_post_DOWN_COMMENTS{
+	width: 100%;
+}
+
+.com{
+	overflow: auto;
+}
+
+.createdpost_post_DOWN_Write{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+
+#createdpost_post_text{
+	float: left;
+	width: 70%;
+}
+
+#createdpost_post_comment{
+	float: right;
+	width: 25%;
+}
+
+.container_right{
+	width:250px;
+    height:715px;
+    background:white;
+    bottom:0px;
+    position:fixed;
+    right:0px;
+}
+
+.chatbox_head{
+    background:#e74c3c;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+    
+}
+
+.chatbox_body{
+    overflow:auto;
+    width: 250px;
+    height: 700px;
+}
+
+.chatbox_body a{
+    margin-left:15px;
+    padding:5px;
+    
+}
+
+.chatbox_body a::before{
+    content:'';
+    width:10px;
+    height:10px;
+    position:fixed;
+    background:green;
+    margin-left:-12px;
+    margin-top:5px;
+    border-radius:5px;
+}

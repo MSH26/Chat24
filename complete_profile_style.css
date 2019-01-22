@@ -1,0 +1,49 @@
+
+body{
+	background-color: #EEE;
+}
+
+.header{
+	background: orange;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+
+.header_img{
+	float: right;
+	padding: 10px 25px 10px 0px;
+}
+
+#img_logo{
+	height: 30px;
+	width: 70px;
+}
+
+.bodyxx{
+	background: white;
+	top: 50px;
+	height: 710px;
+	margin: 50px 100px 0px 100px;
+	min-width: 1000px;
+}
+
+.bodyxxx{
+	height: 50px;
+	text-align: center;
+}
+
+.bodyxxy{
+	top: 100px;
+	height: 400px;
+	float: left;
+	min-width: 800px;
+}
+
+#sbt{
+	margin-left: 600px;
+	color: white;
+	background: blue;
+}
